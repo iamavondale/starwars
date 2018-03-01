@@ -13,11 +13,8 @@ h1 {
     font-family: 'Source Sans Pro', sans-serif;
     float: right;
     font-weight: 100;
-    font-size: 17px;
-    padding-top: 25px;
-    padding-right: 3px;
-    margin-bottom: 0px;
-    margin-top: 0px; 
+    font-size: 19px;
+    margin: 0px;
 }
 
 h2 {
@@ -46,6 +43,8 @@ h2 {
 header {
     background-color: #ea7e6d;
     grid-area: header;
+    padding-top: 40px;
+    padding-right: 3px;
 }
 
 #logo {
