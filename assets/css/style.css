@@ -18,6 +18,10 @@ h1 {
     font-weight: 100;
     font-size: 17px;
     margin: 0px;
+    padding: 0px;
+    position: absolute;
+    right: 0px;
+    top: 43px;
 }
 
 h2 {
@@ -46,7 +50,6 @@ h2 {
 header {
     background-color: #ea7e6d;
     grid-area: header;
-    padding-top: 25px;
     padding-right: 3px;
 }
 
