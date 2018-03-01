@@ -4,15 +4,14 @@ body {
     color: #fff;
     font-family: 'Source Sans Pro', sans-serif;
     text-align: center;
-    font-weight: 300;
+    font-weight: 100;
     margin: 0px;
     padding: 0px;
 }
 
 h1 {
-    font-family: 'Source Sans Pro', sans-serif;
     float: right;
-    font-weight: 100;
+    font-family: 'Source Sans Pro', sans-serif;
     font-size: 19px;
     margin: 0px;
 }
@@ -105,7 +104,6 @@ nav {
     right: 0px;
     background-color: #ea7e6d;
     align-content: center;
-    word-spacing: 20px;
 }
 
 button {
