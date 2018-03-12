@@ -1,0 +1,159 @@
+/********* BODY & TEXT *********/
+
+body {
+    color: #fff;
+    font-family: Source Sans Pro;
+    text-align: center;
+    font-weight: 300;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+
+h2 {
+    margin-top: 12px;
+    margin-bottom: 0px;
+}
+
+/********* HEADER *********/
+
+header {
+    background-color: #ea7e6d;
+    grid-area: header;
+}
+
+#logo {
+    background-color: #ea7e6d;
+    grid-area: logo;
+}
+
+
+
+/********* HEADER IMAGE *********/
+
+#dynamic {
+    grid-area: dynamic;
+}
+
+
+
+button.left {
+    background-color: transparent;
+}
+
+.left {
+    grid-area: left;
+}
+
+button.right {
+    background-color: transparent;
+}
+
+.right {
+    grid-area: right;
+}
+
+/********* MAIN CONTENT *********/
+
+main {
+    background-color: #fff;
+    color: #ea7e6d;
+    grid-area: main;
+}
+
+/********* FOOTER *********/
+
+footer {
+    background-color: #ea7e6d;
+    grid-area: footer;
+    padding-top: 25px;
+}
+
+/****************** DESKTOP ******************/
+
+/********* GRID *********/
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(6, minmax(67px, auto));
+    grid-template-rows: repeat(7, minmax(100px, auto));
+    grid-template-areas:
+    'logo logo header header header header'
+    'dynamic dynamic dynamic dynamic dynamic dynamic'
+    'dynamic dynamic dynamic dynamic dynamic dynamic'
+    'nav nav nav nav nav nav'
+    '. . main main . .'
+    '. . main main . .'
+    'footer footer footer footer footer footer';
+    }
+
+h1 {
+    font-family: Source Sans Pro;
+    text-align: right;
+    font-weight: 100;
+    font-size: 35px;
+    padding-top: 32px;
+    padding-right: 5px;
+    margin-bottom: 0px; 
+}
+
+#logo img {
+    margin-top: 5px;
+    margin-left: 5px;
+    height: 90px;
+    align-content: center;
+}
+
+#dynamic img {
+    width: 1024px;
+    align-content: center;
+}
+
+/********* NAV *********/
+
+nav {
+    grid-area: nav;
+}
+
+button {
+    background-color: #ea7e6d;
+    color: #fff;
+    border-radius: 600px;
+    border: 0px;
+    margin: 5px;
+}
+
+button img {
+    height: 30px;
+    align-content: center;
+    margin: 0px;
+}
+
+.img_a {
+
+}
+
+.a {
+    grid-area: a;
+    height: auto;
+    width: auto;
+}
+
+.b {
+    grid-area: b;
+    height: auto;
+    width: auto;
+}
+
+.c {
+    grid-area: c;
+    height: auto;
+    width: auto;
+}
+
+.d {
+    grid-area: d;
+    height: auto;
+    width: auto;
+}
