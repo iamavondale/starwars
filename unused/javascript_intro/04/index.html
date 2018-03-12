@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>JS Intro</title>
+</head>
+
+<body>
+
+    <h1>JS Intro 04: Click events</h1>
+
+    <div id="indhold">(Klik på knappen!)</div>
+    <br>
+    <button id="skiftKnap">Skift indhold</button>
+    <br><br>
+    <button id="gemKnap">Gem indhold</button>
+    <br><br>
+    <button id="visKnap">Vis indhold</button>
+
+    <script>
+        let skiftKnapElement = document.querySelector("#skiftKnap")
+        skiftKnapElement.addEventListener("click", function(){
+            let indholdElement = document.querySelector("#indhold")
+            indholdElement.innerHTML = "Det virker! Knappen er trykket.";
+            // console.log("Knap trykket!");
+        });
+
+        let gemKnapElement = document.querySelector("#gemKnap")
+        gemKnapElement.addEventListener("click", function(){
+            indholdElement = document.querySelector("#indhold")
+            indholdElement.style.display = "none";
+            // console.log("Knap trykket!");
+        });
+
+        let visKnapElement = document.querySelector("#visKnap")
+        visKnapElement.addEventListener("click", function(){
+            indholdElement = document.querySelector("#indhold")
+            indholdElement.style.display = "block";
+            // console.log("Knap trykket!");
+        });
+    </script>
+
+</body>
+
+</html>
